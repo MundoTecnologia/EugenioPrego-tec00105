@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#you{
+    color: red;
+   
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.863);
+}
+
+.titu{
+    color: white;
+   
+}
+
+#tube{
+    color:white;
+    margin: 5px;
+}
+
+h6{
+    color: white;
+}
+
+.youtube{
+    margin-left: 70px;
+}
+
+.input{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 50dvh;
+    color: white;
+    margin-bottom: 3%;
+    
+}
+
+#icones{
+    margin-bottom: 10%;
+    margin-left: 1%;
+}
+
+h3{
+    color: white;
+}
+
+.tudo{
+    display: flex;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 50px;
+    border-radius: 20%;
+    border: none;
+}
+
+#bt{
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+
+.video{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas:  
+    "vd1 vd1"
+    "vd2 vd2"
+    "vd3 vd3"
+    "vd4 vd4"
+    ;
+    gap: 2%;
+    margin-bottom: 20%;
+    margin-right: 20%;
+    
+}
+
+h4{
+    color: white;
+}
+
+.video section span img{
+    border-radius: 80%;
+    width:95px;
+    height:40px;
+}
+
+.video section span{
+  display: flex;
+  justify-content: start;
+    gap: 2%;
+}
+
+.spa{
+    color: rgba(255, 255, 255, 0.411);
+}
+
+i{
+    margin-right: 8%;
+}
+
+.video section span legend{
+    margin-top: 6px;
+}
+
+#letras{
+color: white;
+font-size: 70%;
+}
+
+@media(max-width:540px){
+    header{
+        flex-direction: row;
+    }
+
+    nav{
+        flex-direction: row;
+        gap: 5%;
+    }
+}
+
+
+
+

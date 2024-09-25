@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    color: dodgerblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+  
+}
+
+.face{
+    display: grid;
+    grid-template-areas: 
+    "faceb faceb faceb"
+    "procu procu procu"
+    "men men men"
+    ;
+  gap: 10%;
+    margin: 5px;
+    margin-left: 5%;
+    
+}
+
+.men{
+    margin-left: 30px;
+}
+
+.procu{
+    margin-left: 135%;
+   
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-right: 40%;
+}
+
+input{
+    height: 40px;
+    text-align: center;
+    border-radius: 50dvh;
+    width: 200px;
+}
+
+header{
+    margin-bottom: 8px;
+}
+
+.pergunt{
+    margin-top: 8px;
+}
+
+.colums{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+   margin-left: 15px;
+   margin-top: 8px;
+   margin-bottom: 10px;
+   gap: 12px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.img4{
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#letras{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pessoas{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+span{
+    margin-left: 9px;
+}
+
+.three{
+    margin-left: 15px;
+}
+
+#photo{
+    margin-left: 15px;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dipanda{
+    margin-left: 8px;
+}
+
+.teoria{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.palavras{
+    margin-bottom: 13px;
+}
+
+#imagem{
+    border-radius: none;
+}
+
+#img1{
+    border-radius: 12%;
+}
+
+.texto{
+    margin-bottom: 8px;
+}
+
+footer i{
+
+width: 100px;
+margin: 4px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 30%;
+    border: none;
+    width: 60px;
+    height: 25px;
+    margin: 3px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 30%;
+    border: none;
+    width: 60px;
+    height: 25px;
+    margin: 3px;
+}
+
+#like{
+    background-color: rgba(0, 0, 255, 0.74);
+    border-radius: 30%;
+    color: white;
+}
+
+#heart{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    height: 20%;
+}
+
+@media (max-width:470px) {
+    .colums{
+        flex-direction: column;
+    } 
+    
+    .bot{
+        flex-direction: row;
+    }
+}
+
+@media (max-width:80px) {
+    body{
+        display: none;
+    }     
+}
+
+@media (min-width:500px) {
+    header{
+        flex-direction: column;
+        
+    } 
+
+    .face{
+        flex-direction:column;
+    }
+
+    hr{
+        width: 150%;
+    }
+}
+
+@media (max-width:752px){
+    #imagem{
+        width: 170%;
+    }
+}
+
+
+@media(min-width:202px){
+    .bot{
+        margin-left: 35%;
+    }
+
+    hr{
+        width: 190%;
+    }
+
+}
+
+
+
